@@ -62,7 +62,7 @@ const BlueprintPage = ({
           </div>
 
           {/* Bottom title block */}
-          <div className="absolute bottom-4 left-4 right-4 sm:bottom-8 sm:left-8 sm:right-8">
+          <div className="absolute bottom-4 left-4 right-4 sm:bottom-8 sm:left-8 sm:right-8 z-10 bg-background">
             <div className="blueprint-title-block p-3 sm:p-4 flex flex-col sm:flex-row items-start sm:items-end justify-between gap-2">
               <div>
                 <div className="font-mono text-[10px] text-blueprint-line-dim tracking-widest uppercase mb-1">
