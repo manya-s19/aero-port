@@ -1,9 +1,9 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "aero-port",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://manya-s19.github.io/aero-port",
+  "homepage": "https://manya-s19.github.io/aero-port/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
