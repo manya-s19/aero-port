@@ -8,7 +8,7 @@ interface ProjectContentProps {
 
 const ProjectContent = ({ title, subtitle, description, specs, tags }: ProjectContentProps) => {
   return (
-    <div className="pb-56">
+    <div className="pb-24">
       {/* Project title */}
       <h1 className="font-mono text-2xl sm:text-4xl text-blueprint-text mb-2 tracking-tight">
         {title}
