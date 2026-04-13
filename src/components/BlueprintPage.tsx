@@ -57,7 +57,7 @@ const BlueprintPage = ({
           </div>
 
           {/* Main content */}
-          <div className="animate-fade-slide-up pb-32" style={{ animationDelay: "0.2s", opacity: 0 }}>
+          <div className="animate-fade-slide-up mb-32" style={{ animationDelay: "0.2s", opacity: 0 }}>
             {children}
           </div>
 
