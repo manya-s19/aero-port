@@ -29,9 +29,9 @@ const ProjectContent = ({ title, subtitle, description, specs, tags }: ProjectCo
             <line x1="100" y1="60" x2="100" y2="140" stroke="hsl(210 40% 35%)" strokeWidth="0.5" strokeDasharray="4 4" />
             <line x1="200" y1="50" x2="200" y2="150" stroke="hsl(210 40% 35%)" strokeWidth="0.5" strokeDasharray="4 4" />
             <line x1="300" y1="65" x2="300" y2="135" stroke="hsl(210 40% 35%)" strokeWidth="0.5" strokeDasharray="4 4" />
-            <text x="100" y="155" fill="hsl(210 40% 35%)" fontSize="8" textAnchor="middle" fontFamily="monospace">A</text>
-            <text x="200" y="160" fill="hsl(210 40% 35%)" fontSize="8" textAnchor="middle" fontFamily="monospace">B</text>
-            <text x="300" y="150" fill="hsl(210 40% 35%)" fontSize="8" textAnchor="middle" fontFamily="monospace">C</text>
+            <text x="100" y="155" fill="hsla(210, 100%, 79%, 1.00)" fontSize="8" textAnchor="middle" fontFamily="monospace">A</text>
+            <text x="200" y="160" fill="hsla(210, 100%, 79%, 1.00)" fontSize="8" textAnchor="middle" fontFamily="monospace">B</text>
+            <text x="300" y="150" fill="hsla(210, 100%, 79%, 1.00)" fontSize="8" textAnchor="middle" fontFamily="monospace">C</text>
           </svg>
         </div>
       </div>
