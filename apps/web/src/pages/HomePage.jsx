@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     title: 'GNSS Satellite Sim',
     description: 'GNSS satellite simulation with least-squares position solving and 3D visualization. Implements precise orbital mechanics and signal propagation delay modeling.',
-    techStack: ['Python', 'NumPy', 'Matplotlib', '3D Graphics'],
+    techStack: ['C++', 'Python', 'Matplotlib', 'OpenGL'],
     image: 'https://images.unsplash.com/photo-1582018339960-bcf41139a252',
     github: 'https://github.com/manya-s19/gnss_sim'
   },
@@ -25,7 +25,7 @@ const projects = [
     id: 3,
     title: 'C++ Missile Intercept Simulator',
     description: 'C++ simulator modeling Scud-B vs Patriot PAC-2 engagement at Dhahran 1991 with ISA atmospheric drag, gravity turn, proportional navigation guidance, chaff/flare countermeasures, and 3D Godot visualization.',
-    techStack: ['C++', 'Godot', 'Physics Simulation', 'Ballistics'],
+    techStack: ['C++', 'Python', 'Godot', 'JSON'],
     image: 'https://images.unsplash.com/photo-1691139299831-a41e7f223753',
     github: 'https://github.com/manya-s19/missile-sim'
   }
