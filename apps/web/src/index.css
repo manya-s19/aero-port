@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --background: 220 20% 12%;
+    --foreground: 195 50% 94%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 220 20% 12%;
+    --secondary: 220 25% 20%;
+    --secondary-foreground: 195 50% 94%;
+    --accent: 180 100% 50%;
+    --accent-foreground: 220 20% 12%;
+    --muted: 220 15% 30%;
+    --muted-foreground: 195 30% 75%;
+    --card: 220 22% 15%;
+    --card-foreground: 195 50% 94%;
+    --popover: 220 22% 15%;
+    --popover-foreground: 195 50% 94%;
+    --border: 220 30% 25%;
+    --input: 220 30% 25%;
+    --ring: 180 100% 50%;
+    --radius: 0;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+  }
+
+  .dark {
+    --background: 220 20% 12%;
+    --foreground: 195 50% 94%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 220 20% 12%;
+    --secondary: 220 25% 20%;
+    --secondary-foreground: 195 50% 94%;
+    --accent: 180 100% 50%;
+    --accent-foreground: 220 20% 12%;
+    --muted: 220 15% 30%;
+    --muted-foreground: 195 30% 75%;
+    --card: 220 22% 15%;
+    --card-foreground: 195 50% 94%;
+    --popover: 220 22% 15%;
+    --popover-foreground: 195 50% 94%;
+    --border: 220 30% 25%;
+    --input: 220 30% 25%;
+    --ring: 180 100% 50%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+  }
+}
+
+@layer components {
+  .blueprint-grid {
+    background-image: 
+      repeating-linear-gradient(
+        0deg,
+        hsl(var(--border) / 0.4) 0px,
+        transparent 1px,
+        transparent 40px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        hsl(var(--border) / 0.4) 0px,
+        transparent 1px,
+        transparent 40px
+      );
+    background-size: 40px 40px;
+  }
+
+  .blueprint-grid-fine {
+    background-image: 
+      repeating-linear-gradient(
+        0deg,
+        hsl(var(--border) / 0.2) 0px,
+        transparent 1px,
+        transparent 10px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        hsl(var(--border) / 0.2) 0px,
+        transparent 1px,
+        transparent 10px
+      );
+    background-size: 10px 10px;
+  }
+
+  .tech-mono {
+    font-family: "JetBrains Mono", monospace;
+  }
+}
