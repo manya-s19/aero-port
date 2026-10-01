@@ -7,6 +7,22 @@ import { ChevronLeft, ChevronRight, Github, ExternalLink } from 'lucide-react';
 const projects = [
   {
     id: 1,
+    title: 'Ariadne',
+    description: 'Airbus Fly Your Ideas Challenge winner (1st/367 teams). Software system to detect and counter GPS spoofing and malware attacks onboard aircraft, maintaining resilient navigation systems are compromised.',
+    techStack: ['Python', 'Dash', 'NumPy'],
+    image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06',
+    github: 'https://github.com/manya-s19/ariadne'
+  },
+  {
+    id: 2,
+    title: 'AutoSoar',
+    description: 'Autonomous thermal soaring system being built on ArduPilot/ArduSoar. Weather-guided MAVLink companion computer ingests real-time forecasts (Open-Meteo, SoaringMeteo GFS) to predict thermal hotspots, autonomously navigate to them, and hand off to onboard control — validated end-to-end in SITL ahead of hardware bring-up.',
+    techStack: ['Python', 'MAVLink', 'ArduPilot', 'SITL'],
+    image: 'https://images.unsplash.com/photo-1452457750694-acb79a7e07d8',
+    github: 'https://github.com/WATFlight/AutoSoar'
+  },
+  {
+    id: 3,
     title: 'GNSS Satellite Simulation',
     description: 'GNSS satellite simulation with least-squares position solving and 3D visualization. Implements precise orbital mechanics and signal propagation delay modeling.',
     techStack: ['C++', 'Python', 'Matplotlib', 'OpenGL'],
@@ -14,7 +30,7 @@ const projects = [
     github: 'https://github.com/manya-s19/gnss_sim'
   },
   {
-    id: 2,
+    id: 4,
     title: 'Aerial Threat Detector',
     description: 'Aerial threat detection system using YOLOv8 trained on a multi-class dataset (drones, aircraft, birds). Features real-time inference via webcam with optimized bounding box rendering.',
     techStack: ['Python', 'YOLOv8', 'OpenCV', 'PyTorch'],
@@ -22,7 +38,7 @@ const projects = [
     github: 'https://github.com/manya-s19/aerial-threat-detector'
   },
   {
-    id: 3,
+    id: 5,
     title: 'Missile Intercept Simulator',
     description: 'C++ simulator modeling Scud-B vs Patriot PAC-2 engagement at Dhahran 1991 with ISA atmospheric drag, gravity turn, proportional navigation guidance, chaff/flare countermeasures, and 3D Godot visualization.',
     techStack: ['C++', 'Python', 'Godot', 'JSON'],
