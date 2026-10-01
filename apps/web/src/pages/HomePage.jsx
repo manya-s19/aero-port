@@ -18,7 +18,7 @@ const projects = [
     title: 'AutoSoar',
     description: 'Autonomous thermal soaring system being built on ArduPilot/ArduSoar. Weather-guided MAVLink companion computer ingests real-time forecasts (Open-Meteo, SoaringMeteo GFS) to predict thermal hotspots, autonomously navigate to them, and hand off to onboard control — validated end-to-end in SITL ahead of hardware bring-up.',
     techStack: ['Python', 'MAVLink', 'ArduPilot', 'SITL'],
-    image: 'https://images.unsplash.com/photo-1452457750694-acb79a7e07d8',
+    image: 'https://images.unsplash.com/photo-1718014469544-c231fa197e01',
     github: 'https://github.com/WATFlight/AutoSoar'
   },
   {
